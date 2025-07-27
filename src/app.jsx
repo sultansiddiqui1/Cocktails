@@ -10,8 +10,9 @@ const app = () => {
     <main>
       <Navbar />
       <Hero />
-      <div className="h-dvh bg-black"></div>
+      {/* <div className="h-dvh bg-black"></div> */}
       {/* hdvh is the full height */}
+      
     </main>
   );
 };
