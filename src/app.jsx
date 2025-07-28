@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar.jsx";
 import Hero from "./components/Hero.jsx";
 import Cocktails from "./components/cocktails.jsx";
 import About from "./components/About.jsx";
+import Art from "./components/Art.jsx";
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
 const app = () => {
@@ -16,6 +17,7 @@ const app = () => {
       {/* hdvh is the full height */}
       <Cocktails />
       <About />
+      <Art />
     </main>
   );
 };
